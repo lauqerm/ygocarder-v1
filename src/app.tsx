@@ -361,6 +361,9 @@ function App() {
                 >
                     <AppHeader /><br />
                 </CardInputPanel>}
+                <div className="by-me">
+                    Made by Lauqerm <img src="https://i.imgur.com/bIzWP36.png" alt="avatar" />
+                </div>
             </div>
         </div>
     );

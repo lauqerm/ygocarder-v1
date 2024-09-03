@@ -29,7 +29,7 @@
             }
         }
         .app-contribution {
-            display: grid;
+            display: inline-grid;
             grid-template-columns: max-content 1fr max-content;
             column-gap: 10px;
             font-size: 12px;
@@ -41,6 +41,7 @@
                 font-size: 15px;
                 color: #e6e6e6;
                 cursor: pointer;
+                align-content: center;
             }
             > * {
                 white-space: nowrap;
